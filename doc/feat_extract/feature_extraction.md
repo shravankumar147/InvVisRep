@@ -1,8 +1,8 @@
 
-### ============================###
+### ============================
 ### Install vlfeat library using : 
 conda install -c menpo cyvlfeat=0.4.5
-### ============================###
+### ============================
 
 
 ```python
@@ -75,7 +75,7 @@ plt.show()
 ![png](output_6_0.png)
 
 
-
+### extracting hog features
 ```python
 # extracting hog features
 feat = hog(im,8)
@@ -101,7 +101,7 @@ plt.imshow(np.flipud(feat[:,:,13]))
 ![png](output_8_1.png)
 
 
-
+### computing dense sift features of an image
 ```python
 # computing dense sift features of an image
 fsift = dsift(rgb2gray(im))
@@ -119,8 +119,9 @@ print(" dense feature size: {}\n dense descriptor size: {}\n".format(d_features.
     
 
 
-
+### computing sift features of an image
 ```python
+# computing sift features of an image
 fsift1 = sift(rgb2gray(im),n_octaves=3,compute_descriptor=True)
 ```
 
