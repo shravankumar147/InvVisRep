@@ -8,6 +8,11 @@ This README would normally document whatever steps are necessary to get your app
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
+### Feature Extraction
+
+* [Extracting HoG and SIFT features](https://github.com/shravankumar147/InvVisRep/blob/master/doc/feat_extract/feature_extraction.md)
+
+
 ### How do I get set up? ###
 
 * Summary of set up
