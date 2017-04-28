@@ -1,19 +1,19 @@
 
-
+### importing required packages
 ```python
 import numpy as np 
 import matplotlib.pyplot as plt
 %matplotlib inline
 ```
 
-
+### loading .npy files
 ```python
 conv2 = np.load("conv2_out.npy")
 conv3 = np.load("conv3_out.npy")
 conv4 = np.load("conv4_out.npy")
 ```
 
-
+### example to display any particular image
 ```python
 plt.imshow(conv3[1].transpose(1,2,0))
 plt.show()
@@ -23,7 +23,7 @@ plt.show()
 ![png](output_2_0.png)
 
 
-
+### Displaying randomlely chosen 10 images from convolutional layer 2
 ```python
 
 for i in range(10):
@@ -72,7 +72,7 @@ for i in range(10):
 
 ![png](output_3_9.png)
 
-
+### Displaying randomlely chosen 10 images from convolutional layer 3
 
 ```python
 
@@ -124,7 +124,7 @@ for i in range(10):
 ![png](output_4_9.png)
 
 
-
+### Displaying randomlely chosen 10 images from convolutional layer 4
 ```python
 
 for i in range(10):
