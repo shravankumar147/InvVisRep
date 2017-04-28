@@ -13,7 +13,7 @@ This README would normally document whatever steps are necessary to get your app
 * [Extracting HoG and SIFT features](https://github.com/shravankumar147/InvVisRep/blob/master/doc/feat_extract/feature_extraction.md)
 
 ### Image reconstruction from feature space
-* [Reonstructed images](https://github.com/shravankumar147/InvVisRep/blob/master/doc/reconstruction/reconstruction.md)
+* [Reonstructed images](https://github.com/shravankumar147/InvVisRep/blob/master/doc/reconstruction_images/reconstruction_images.md)
 
 ### How do I get set up? ###
 
